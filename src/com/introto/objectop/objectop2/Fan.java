@@ -17,4 +17,15 @@ public class Fan {
         this.radius = radius;
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Fan{" +
+                "make='" + make + '\'' +
+                ", radius=" + radius +
+                ", color='" + color + '\'' +
+                ", isOn=" + isOn +
+                ", speed=" + speed +
+                '}';
+    }
 }
