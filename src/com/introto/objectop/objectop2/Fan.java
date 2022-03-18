@@ -17,10 +17,25 @@ public class Fan {
         this.radius = radius;
         this.color = color;
     }
+    // Method on behaviour
+    // isOn
+    public void switchOn() {
+        this.isOn = true;
+    }
 
+    public void switchOff() {
+        this.isOn = false;
+        setSpeed((byte) 0);
+    }
+
+    public void setSpeed(byte speed){
+        this.speed = speed;
+    }
+
+    // print the state
     @Override
     public String toString() {
-        return "Fan{" +
+        return "Fan {" +
                 "make='" + make + '\'' +
                 ", radius=" + radius +
                 ", color='" + color + '\'' +
