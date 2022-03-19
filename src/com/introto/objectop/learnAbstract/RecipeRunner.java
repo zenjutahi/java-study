@@ -10,5 +10,13 @@ public class RecipeRunner {
         RecipeWithMicrowave recipe = new RecipeWithMicrowave();
         System.out.println("Recipe two Procedure...");
         recipe.execute();
+
+        // polymorphism in abstract classes
+
+        AbstractRecipe[] recipes = {new Recipe1(), new RecipeWithMicrowave()};
+
+        for (AbstractRecipe recipy:recipes){
+            recipy.execute();
+        }
     }
 }
