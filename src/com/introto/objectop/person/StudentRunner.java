@@ -7,15 +7,12 @@ public class StudentRunner {
 
 
         /*
-        Student student = new Student();
-        student.setName("Zenjy");
+        Student student = new Student("Zenj", "Kampo");
         student.setEmail("zenjy@mail.com");
          */
 
-        Employee employee = new Employee();
-        employee.setName("Jeff");
+        Employee employee = new Employee("Jeff", "Soft Developer");
         employee.setEmail("zenjy@mail.com");
-        employee.setTitle("Developer");
         employee.setPhoneNumber("097125522");
         employee.setEmployer("Trif Company");
 

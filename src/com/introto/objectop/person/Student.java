@@ -5,6 +5,11 @@ public class Student extends Person{
     private String collageName;
     private String year;
 
+    public Student(String name, String collageName) {
+        super(name);
+        this.collageName = collageName;
+    }
+
     public void setCollageName(String collageName) {
         this.collageName = collageName;
     }

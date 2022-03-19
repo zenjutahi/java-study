@@ -5,7 +5,7 @@ public class Person {
     private String email;
     private String phoneNumber;
 
-    public void setName(String name) {
+    public Person(String name) {
         this.name = name;
     }
 

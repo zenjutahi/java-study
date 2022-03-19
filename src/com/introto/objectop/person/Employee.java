@@ -12,7 +12,9 @@ public class Employee extends Person{
 
     // creation
 
-    public void setTitle(String title) {
+
+    public Employee(String name, String title) {
+        super(name);
         this.title = title;
     }
 
