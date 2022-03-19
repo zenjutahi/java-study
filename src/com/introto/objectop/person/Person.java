@@ -28,4 +28,17 @@ public class Person {
     public String getPhoneNumber() {
         return phoneNumber;
     }
+
+    /* A subclass can override an implementation provide by the superclass
+       like toString function provided by the Object superclass which every clas
+       in Java inherits from.
+     */
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
+    }
 }
