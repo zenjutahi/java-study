@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+
+// Sorting in a List interface (ArrayList, LinkedList and Vector)
 class AscendingStudentComparator implements Comparator<Student>{
 
     @Override
