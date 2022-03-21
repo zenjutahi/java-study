@@ -22,5 +22,23 @@ public class MapRunner {
         }
 
         System.out.println(occurances);
+
+        // String Occurances
+        Map<String, Integer> StringOccurances = new HashMap<>();
+        //
+        // get strings
+        String[] words = str.split(" ");
+
+        for(String word:words){
+            // check if word exists, if not initiate it else add its count
+            Integer integer = StringOccurances.get(word);
+            if(integer==null){
+                StringOccurances.put(word, 1);
+            }else {
+                StringOccurances.put(word, integer + 1);
+            }
+        }
+
+        System.out.println(StringOccurances);
     }
 }
