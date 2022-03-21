@@ -13,7 +13,7 @@ public class FPNumberRunner {
         funcProgrammingSum(numbers);
 
         // Print squares of the first 10 numbers
-        IntStream.range(1,11).forEach(e -> System.out.println(e));
+        IntStream.range(1,11).map(e -> e * e).forEach(e -> System.out.println(e));
 
         // Map a stream of strings to lowercase
         List<String> myList = List.of("Man", "Animal", "Heart");
