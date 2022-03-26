@@ -24,6 +24,9 @@ class SomeClass2 extends SomeClass{
 
 public class FinalNonAccessModifier {
     public static void main(String[] args) {
+        final int i = 3;
+        // final variable and arguments can only be assigned once
+        // i = 7;
 
 
     }
